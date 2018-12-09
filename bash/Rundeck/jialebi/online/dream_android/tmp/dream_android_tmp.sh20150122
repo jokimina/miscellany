@@ -1,0 +1,11 @@
+user=jidong
+gamelist=$(cat /data/tools/gamecode_rsync/dream_android/gamelist.txt)
+tmp_file_dir=/var/www/html/dream_android/game_server/www/prod
+file=7day.php
+
+    for server_num in ${gamelist}
+    do
+        ssh -p 40022  -t ${user}@192.168.1.183  " php -l ${tmp_file_dir}/${server_num}/workers/$file"
+    done
+
+#/var/www/html/dream_ios/game_server/www/prod/s1/workers/daily_match.php

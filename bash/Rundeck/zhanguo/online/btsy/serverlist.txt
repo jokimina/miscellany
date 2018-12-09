@@ -1,0 +1,10 @@
+10.4.3.125	btsy01	/data/zhanguo_btsy_app/zhanguo_server_1
+10.4.3.125	btsy02	/data/zhanguo_btsy_app/zhanguo_server_2
+10.4.3.125	btsy03	/data/zhanguo_btsy_app/zhanguo_server_3
+10.4.3.125	btsy04	/data/zhanguo_btsy_app/zhanguo_server_4
+10.4.3.125	btsy05	/data/zhanguo_btsy_app/zhanguo_server_5
+10.4.3.125	btsy06	/data/zhanguo_btsy_app/zhanguo_server_6
+10.4.3.125	btsy07	/data/zhanguo_btsy_app/zhanguo_server_7
+10.4.3.125	btsy08	/data/zhanguo_btsy_app/zhanguo_server_8
+10.4.3.125	btsy09	/data/zhanguo_btsy_app/zhanguo_server_9
+10.4.3.125	btsy10	/data/zhanguo_btsy_app/zhanguo_server_10

@@ -1,0 +1,7 @@
+10.4.8.109	qihu01	/data/zhanguo_app/zhanguo_server/	
+10.4.8.109	qihu02	/data/zhanguo_app/zhanguo_server_2/
+10.4.1.21	qihu03	/data/zhanguo_app/zhanguo_server_3/
+10.4.1.21	qihu04	/data/zhanguo_app/zhanguo_server_4/
+10.4.8.79	qihu01  /data/zhanguo_app/zhanguo_server_1/
+10.4.8.79	qihu02	/data/zhanguo_app/zhanguo_server_2/
+10.4.8.79	qihu03	/data/zhanguo_app/zhanguo_server_3/

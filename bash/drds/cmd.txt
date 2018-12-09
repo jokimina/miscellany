@@ -1,0 +1,1 @@
+awk '{split(FILENAME,A,"list");url=A[2]==26?"rm-2zerp0mzn1shls62w103.mysql.rds.aliyuncs.com":"xxx-shard"A[2]"-vpc.mysql.rds.aliyuncs.com"}{printf "mysql -h%s -ushard -p -A %s < alter.sql &\n",url,$0 > "run/sql_"NR % 5".sh"}' list*

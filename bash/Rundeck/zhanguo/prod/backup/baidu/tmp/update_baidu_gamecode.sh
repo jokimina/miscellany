@@ -1,0 +1,2 @@
+#sudo rsync  -aP   --exclude "config/app.conf.php*"  --exclude "htdoc/resource/*" --exclude ".svn/"   /data/zhanguo_app/baidu/zhanguo_server/  baiducode@203.195.181.236::baidu  --password-file=/etc/rsyncd.secrets.baidu
+sudo rsync  -aP   --exclude "config/app.conf.php*"   --exclude ".svn/"   /data/zhanguo_app/baidu/zhanguo_server/  baiducode@203.195.181.236::baidu  --password-file=/etc/rsyncd.secrets.baidu

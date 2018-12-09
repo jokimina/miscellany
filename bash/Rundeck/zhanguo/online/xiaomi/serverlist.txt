@@ -1,0 +1,1 @@
+10.4.4.203	xiaomi01	/data/zhanguo_app/zhanguo_server/

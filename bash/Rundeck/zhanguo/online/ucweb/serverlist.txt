@@ -1,0 +1,2 @@
+10.4.5.209	ucweb01	/data/zhanguo_app/zhanguo_server/
+10.4.5.209	ucweb02	/data/zhanguo_app/zhanguo_server_2

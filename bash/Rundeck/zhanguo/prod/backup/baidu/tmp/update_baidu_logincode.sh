@@ -1,0 +1,1 @@
+sudo rsync  -aP   --exclude "config/app.conf.php*"  --exclude "htdoc/resource/*" --exclude ".svn/"   /data/zhanguo_app/baidu/login_server/  logincode@203.195.181.236::baidulogin  --password-file=/etc/rsyncd.secrets.baidulogin

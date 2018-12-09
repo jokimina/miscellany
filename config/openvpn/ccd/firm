@@ -1,0 +1,16 @@
+iroute 10.10.41.0 255.255.255.0 
+ifconfig-push 10.100.0.3 255.255.255.0 
+;金山
+push "route 10.253.0.0 255.255.0.0"
+push "route 10.136.56.0 255.255.254.0"
+;Ucloud 华东双线
+push "route 10.4.0.0 255.255.0.0 "
+;Ucloud BGP B
+push "route 10.9.0.0 255.255.0.0 "
+;Ucloud BGP C
+push "route 10.10.64.0 255.255.192.0"
+push "route 10.10.128.0 255.255.128.0"
+;台湾
+push "route 192.168.0.0 255.255.255.0 "
+;amazone 日本
+push "route 172.31.0.0 255.255.0.0 "

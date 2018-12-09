@@ -1,0 +1,1 @@
+awk -F= 'NR==FNR{t=$1;gsub($1"=","");OFS="=";C[t]=$0}NR>FNR&&NF>1{OFS="=";split($2,A,"{|}");s=C[A[2]];$2=s?s:$2""$3;print > FILENAME }NR>FNR&&NF<1{print > FILENAME}' $META_CONFIG ROOT/WEB-INF/classes/*.properties

@@ -1,3 +1,6 @@
 [submodule "go"]
 	path = go
 	url = git@github.com:jokimina/go-script.git
+[submodule "java/ops-helper"]
+	path = java/ops-helper
+	url = git@github.com:jokimina/java-ops-helper.git

@@ -41,7 +41,7 @@ kubectl label namespace default istio-injection=enabled
 ```
 istioctl kube-inject -f <(kubectl get deploy xxx -o yaml) | kubectl replace -f -
 ```
-# 重启pod(无法直接重启, 删除或者replace pod可以达到重启效果, 或者进入容器/cashbus/tomcat/restart.sh)
+# 重启pod(无法直接重启, 删除或者replace pod可以达到重启效果, 或者进入容器/data/tomcat/restart.sh)
 ```
 kubectl delete po -l app=sc-tag
 
